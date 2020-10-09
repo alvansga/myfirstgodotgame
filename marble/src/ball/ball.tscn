@@ -7,14 +7,16 @@
 radius = 333.01
 
 [node name="ball" type="KinematicBody2D"]
-position = Vector2( 47, 41.5736 )
+position = Vector2( -7.62939e-06, -0.529724 )
 scale = Vector2( 0.107562, 0.107188 )
+collision_mask = 2
 script = ExtResource( 2 )
 
 [node name="marble" type="Sprite" parent="."]
-position = Vector2( 308, 195 )
+position = Vector2( 27.281, -343.687 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 287.727, 205.704 )
+visible = false
+position = Vector2( 7.00781, -332.983 )
 shape = SubResource( 1 )
